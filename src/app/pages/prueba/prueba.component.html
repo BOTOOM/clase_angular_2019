@@ -1,0 +1,19 @@
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+  </div>
+  <input [(ngModel)]="TextoQueCambia" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+
+<br>
+
+<button (click)="mostrarTexto()" type="button" class="btn btn-success">Success</button>
+
+<br>
+
+<div class="jumbotron jumbotron-fluid m-4">
+  <div class="container">
+    <h1 class="display-4"> {{ TextoQueCambia | uppercase }} </h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>

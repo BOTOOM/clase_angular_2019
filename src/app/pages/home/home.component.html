@@ -1,0 +1,24 @@
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 *ngIf="mostrar" class="card-title">Carta 1 false</h5>
+    <h5 *ngIf="!mostrar" class="card-title">Carta 1 true</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a class="btn btn-primary"  (click)="pruebita()">Go somewhere</a>
+  </div>
+</div>
+<br>
+
+
+<div *ngIf="mostrar" class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Carta 2</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div *ngFor="let pos of numeros" class="alert alert-warning m-4" role="alert">
+  {{ pos }}
+</div>
