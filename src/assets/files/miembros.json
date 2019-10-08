@@ -1,17 +1,48 @@
-[{
-        "nombre": "Edwar",
-        "edad": 23,
-        "titulo": [{
-            "nombre": "estudiante"
-        }],
-        "habilidades": [{
-            "nombre": ""
-        }],
-        "foto": "assets/img/EdwarDiaz.png",
-        "descripcion": [{
-            "parrafo": ""
-        }]
-    },
+<<<<<<< HEAD
+[
+  {
+    "nombre": "Edwar",
+    "edad": 23,
+    "titulo": [
+      {
+        "nombre": "estudiante"
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": ""
+      }
+    ],
+    "foto": "assets/img/EdwarDiaz.png",
+    "descripcion": [
+      {
+        "parrafo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Miguel Rodríguez",
+    "edad": 19,
+    "titulo": [
+      {
+        "nombre": "Ingeniería de sistemas"
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": "Manejo de herrramientas modernas para el desarrollo web y empresarial."
+      },
+      {
+        "nombre": "Conocimiento básicos de diseño web."
+      }
+    ],
+    "foto": "assets/img/MiguelRodriguez.jpeg",
+    "descripcion": [
+      {
+        "parrafo": "Un tipazo."
+      }
+    ]
+  },
     {
         "nombre": "Daniel Montiel",
         "edad": 19,
@@ -31,3 +62,4 @@
         }]
     }
 ]
+
