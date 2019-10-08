@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Edwar",
+    "edad": 23,
+    "titulo" : [
+      {
+      "nombre": "estudiante"
+      }
+    ],
+    "habilidades": [
+      {
+      "nombre": ""
+      }
+    ],
+    "foto": "assets/img/EdwarDiaz.png",
+    "descripcion": 
+    [
+      {
+      "parrafo":""
+      }
+    ]
+  }
+]
