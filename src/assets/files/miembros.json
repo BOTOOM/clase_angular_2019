@@ -23,12 +23,7 @@
   {
     "nombre": "Julieth Tatiana Riaño Mora",
     "edad": 17,
-    "titulo" : [
-      {
-        "nombre": "estudiante"
-      }
-    ],
-    "habilidades": [
+    "titulo": [
       {
         "nombre": "Entrenamiento de programación basica",
         "institucion":"Campoalto"
@@ -36,6 +31,14 @@
       {
         "nombre": "Ingeniería de sistemas",
         "institucion":"Universidad Distrital Francisco Jose de Caldas"
+      }
+    ],
+    "habilidades" : [
+      {
+        "nombre": "desarrollo web con tecnologías tales como polymer, node js, bootstrap, php y javascript"
+      },
+      {
+        "nombre": "manejo de las herramientas git"
       }
     ],
     "foto": "assets/img/jtrm.jpg",
