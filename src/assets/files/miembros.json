@@ -2,21 +2,122 @@
   {
     "nombre": "Edwar",
     "edad": 23,
-    "titulo" : [
+    "titulo": [
       {
-      "nombre": "estudiante"
+        "nombre": "estudiante"
       }
     ],
     "habilidades": [
       {
-      "nombre": ""
+        "nombre": ""
       }
     ],
     "foto": "assets/img/EdwarDiaz.png",
+    "descripcion": [
+      {
+        "parrafo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Miguel Rodríguez",
+    "edad": 19,
+    "titulo": [
+      {
+        "nombre": "Ingeniería de sistemas"
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": "Manejo de herrramientas modernas para el desarrollo web y empresarial."
+      },
+      {
+        "nombre": "Conocimiento básicos de diseño web."
+      }
+    ],
+    "foto": "assets/img/MiguelRodriguez.jpeg",
+    "descripcion": [
+      {
+        "parrafo": "Un tipazo."
+      }
+    ]
+  },
+    {
+        "nombre": "Daniel Montiel",
+        "edad": 19,
+        "titulo": [{
+            "nombre": "Ingenieria de Sistemas"
+        }],
+        "habilidades": [{
+                "nombre": "C++"
+            },
+            {
+                "nombre": "Java"
+            }
+        ],
+        "foto": "assets/img/DanielMontiel.JPG",
+        "descripcion": [{
+            "parrafo": "Aprendiz :v"
+        }]
+    },
+    {
+    "nombre": "Diego Alejandro ",
+    "edad": 22,
+    "titulo" : [
+      {
+      "nombre": "Estudiante para optar por titulo Ingenieria de Sistemas"
+      }
+    ],
+    "habilidades": [
+      {
+      "nombre": "Lenguajes de programación Java, Python, C++, JavaScript, Latex"
+      },
+      {
+        "nombre": "Desarollo Web Bootstrap, HTML5, CSS3, JavaScript, Node.js"
+      }
+    ],
+    "foto": "assets/img/DiegoHernandez.png",
     "descripcion":
     [
       {
-      "parrafo":""
+      "parrafo":"Soy estudiante de noveno nivel de Ingeniería de Sistemas de la Universidad Distrital, apasionado a las nuevas tecnologías. Me caracterizo por ser una persona amable y respetuosa, preocupa-da por mantener la armonía en los grupos de trabajo, manteniendo comunicación constante y eﬁciente."
+      }
+    ],
+    "datos" :[
+      {
+        "correo":"dahm1997@gmail.com"
+      },
+      {
+        "github":"usercall"
+      }
+    ]
+  },
+  {
+    "nombre": "Julieth Tatiana Riaño Mora",
+    "edad": 17,
+    "titulo": [
+      {
+        "nombre": "Entrenamiento de programación basica",
+        "institucion":"Campoalto"
+      },
+      {
+        "nombre": "Ingeniería de sistemas",
+        "institucion":"Universidad Distrital Francisco Jose de Caldas"
+      }
+    ],
+    "habilidades" : [
+      {
+        "nombre": "desarrollo web con tecnologías tales como polymer, node js, bootstrap, php y javascript"
+      },
+      {
+        "nombre": "manejo de las herramientas git"
+      }
+    ],
+    "foto": "assets/img/jtrm.jpg",
+    "descripcion":
+    [
+      {
+        "parrafo":"soy estudiante de ingenieria de sistemas me gusta leer libros, ver series, me encanta la programacion y hacer paginas web :3"
       }
     ]
   },
@@ -50,3 +151,4 @@
     ]
   }
 ]
+
