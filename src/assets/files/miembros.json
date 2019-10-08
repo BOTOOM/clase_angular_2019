@@ -19,5 +19,38 @@
       "parrafo":""
       }
     ]
+  },
+  {
+    "nombre": "Diego Alejandro ",
+    "edad": 22,
+    "titulo" : [
+      {
+      "nombre": "Estudiante para optar por titulo Ingenieria de Sistemas"
+      }
+    ],
+    "habilidades": [
+      {
+      "nombre": "Lenguajes de programación
+      Java, Python, C++, JavaScript, Latex"
+      },
+      {
+        "nombre": "Desarollo Web Bootstrap, HTML5, CSS3, JavaScript, Node.js"
+      }
+    ],
+    "foto": "assets/img/DiegoHernandez.png",
+    "descripcion": 
+    [
+      {
+      "parrafo":"Soy estudiante de noveno nivel de Ingeniería de Sistemas de la Universidad Distrital, apasionado a las nuevas tecnologías. Me caracterizo por ser una persona amable y respetuosa, preocupa-da por mantener la armonía en los grupos de trabajo, manteniendo comunicación constante y eﬁciente."
+      }
+    ],
+    "datos" :[
+      {
+        "correo":"dahm1997@gmail.com"
+      },
+      {
+        "github":"usercall"
+      }
+    ]
   }
 ]
