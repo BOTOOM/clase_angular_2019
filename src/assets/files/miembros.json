@@ -1,23 +1,33 @@
-[
-  {
-    "nombre": "Edwar",
-    "edad": 23,
-    "titulo" : [
-      {
-      "nombre": "estudiante"
-      }
-    ],
-    "habilidades": [
-      {
-      "nombre": ""
-      }
-    ],
-    "foto": "assets/img/EdwarDiaz.png",
-    "descripcion": 
-    [
-      {
-      "parrafo":""
-      }
-    ]
-  }
+[{
+        "nombre": "Edwar",
+        "edad": 23,
+        "titulo": [{
+            "nombre": "estudiante"
+        }],
+        "habilidades": [{
+            "nombre": ""
+        }],
+        "foto": "assets/img/EdwarDiaz.png",
+        "descripcion": [{
+            "parrafo": ""
+        }]
+    },
+    {
+        "nombre": "Daniel Montiel",
+        "edad": 19,
+        "titulo": [{
+            "nombre": "Ingenieria de Sistemas"
+        }],
+        "habilidades": [{
+                "nombre": "C++"
+            },
+            {
+                "nombre": "Java"
+            }
+        ],
+        "foto": "assets/img/DanielMontiel.JPG",
+        "descripcion": [{
+            "parrafo": "Aprendiz :v"
+        }]
+    }
 ]
