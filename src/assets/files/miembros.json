@@ -2,21 +2,43 @@
   {
     "nombre": "Edwar",
     "edad": 23,
-    "titulo" : [
+    "titulo": [
       {
-      "nombre": "estudiante"
+        "nombre": "estudiante"
       }
     ],
     "habilidades": [
       {
-      "nombre": ""
+        "nombre": ""
       }
     ],
     "foto": "assets/img/EdwarDiaz.png",
-    "descripcion": 
-    [
+    "descripcion": [
       {
-      "parrafo":""
+        "parrafo": ""
+      }
+    ]
+  },
+  {
+    "nombre": "Miguel Rodríguez",
+    "edad": 19,
+    "titulo": [
+      {
+        "nombre": "Ingeniería de sistemas"
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": "Manejo de herrramientas modernas para el desarrollo web y empresarial."
+      },
+      {
+        "nombre": "Conocimiento básicos de diseño web."
+      }
+    ],
+    "foto": "assets/img/MiguelRodriguez.jpeg",
+    "descripcion": [
+      {
+        "parrafo": "Un tipazo."
       }
     ]
   }
