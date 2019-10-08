@@ -13,10 +13,36 @@
       }
     ],
     "foto": "assets/img/EdwarDiaz.png",
-    "descripcion": 
+    "descripcion":
     [
       {
       "parrafo":""
+      }
+    ]
+  },
+  {
+    "nombre": "Julieth Tatiana Riaño Mora",
+    "edad": 17,
+    "titulo" : [
+      {
+        "nombre": "estudiante"
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": "Entrenamiento de programación basica",
+        "institucion":"Campoalto"
+      },
+      {
+        "nombre": "Ingeniería de sistemas",
+        "institucion":"Universidad Distrital Francisco Jose de Caldas"
+      }
+    ],
+    "foto": "assets/img/jtrm.jpg",
+    "descripcion":
+    [
+      {
+        "parrafo":"soy estudiante de ingenieria de sistemas me gusta leer libros, ver series, me encanta la programacion y hacer paginas web :3"
       }
     ]
   }
