@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "nombre": "Edwar",
@@ -41,5 +42,24 @@
         "parrafo": "Un tipazo."
       }
     ]
-  }
+  },
+    {
+        "nombre": "Daniel Montiel",
+        "edad": 19,
+        "titulo": [{
+            "nombre": "Ingenieria de Sistemas"
+        }],
+        "habilidades": [{
+                "nombre": "C++"
+            },
+            {
+                "nombre": "Java"
+            }
+        ],
+        "foto": "assets/img/DanielMontiel.JPG",
+        "descripcion": [{
+            "parrafo": "Aprendiz :v"
+        }]
+    }
 ]
+
