@@ -15,5 +15,68 @@
   <div class="container">
     <h1 class="display-4"> {{ TextoQueCambia}} </h1>
     <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <p class="lead">{{Nombre}}</p>    
   </div>
+</div>
+
+<div>
+<table class="table table-sm table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Variable original</th>
+      <th scope="col">Pipe usado</th>
+      <th scope="col">Resultado</th>>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> {{Nombre}} </td>
+      <td>uppercase</td>
+      <td> {{ Nombre | uppercase }} </td>
+    </tr>
+    <tr>
+      <td> {{Nombre}} </td>
+      <td>uppercase</td>
+      <td> {{ Nombre | lowercase }} </td>
+    </tr>
+    <tr>
+      <td> {{euler}} </td>
+      <td>number:'1.0-2' </td>
+      <td> {{ euler | number:'2.0-5'  }} </td>
+    </tr>
+    <tr>
+      <td> {{iva}} </td>
+      <td>percent:'2.2-2' </td>
+      <td> {{ iva | percent:'2.2-2'  }} </td>
+    </tr>
+    <tr>
+      <td> {{valor_chocorramo}} </td>
+      <td>currency </td>
+      <td> {{ valor_chocorramo | currency }} </td>
+    </tr>
+    <tr>
+      <td> {{fecha_hoy}} </td>
+      <td>date:'medium' </td>
+      <td> {{ fecha_hoy | date:'medium' }} </td>
+    </tr>
+    <tr>
+      <td> {{fecha_hoy}} </td>
+      <td>date:'MMMM - dd' </td>
+      <td> {{ fecha_hoy | date:'MMMM - dd' }} </td>
+    </tr>
+    <tr>
+      <td> {{nickname}} </td>
+      <td> capitalizado </td>
+      <td> {{ nickname | capitalizado }} </td>
+    </tr>
+    <tr>
+      <td> {{password}} </td>
+      <td> contrasena: {{ oculto }}
+        <br>
+          <button type="button" class="btn btn-info" (click)="oculto=!oculto">Mostrar / ocultar</button>
+      </td>
+      <td> {{ password | contrasena:oculto }} </td>
+    </tr>
+  </tbody>
+</table>
 </div>

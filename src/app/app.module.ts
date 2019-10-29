@@ -11,6 +11,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PruebaComponent } from './pages/prueba/prueba.component';
 import { MiembrosComponent } from './pages/miembros/miembros.component';
+import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
+import { ContraseñaPipe } from './pipes/contraseña.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MiembrosComponent } from './pages/miembros/miembros.component';
     NavbarComponent,
     HomeComponent,
     PruebaComponent,
-    MiembrosComponent
+    MiembrosComponent,
+    CapitalizadoPipe,
+    ContraseñaPipe
   ],
   imports: [
     BrowserModule,
