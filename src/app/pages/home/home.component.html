@@ -19,6 +19,7 @@
   </div>
 </div>
 
-<div *ngFor="let pos of numeros" class="alert alert-warning m-4" role="alert">
-  {{ pos }}
+<div *ngFor="let pos of numeros" class="alert alert-info m-4" role="alert">
+  grupo de trabajo numero : {{ pos }}
+  <a class="btn btn-success m-3"  (click)="redirigir(pos)">Go somewhere</a>
 </div>

@@ -1,0 +1,11 @@
+<div class="card-deck">
+  <div class="card" *ngFor="let persona of Datosmiembros">
+    <img src="{{ persona['foto'] }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> {{ persona['nombre'] }} </h5> <span class="badge badge-dark">Edad</span>
+      <p class="card-text">Descripcion</p>
+      <span class="badge badge-success">titulo</span>
+      <span class="badge badge-pill badge-primary">Habilidad</span>
+    </div>
+  </div>
+</div>
