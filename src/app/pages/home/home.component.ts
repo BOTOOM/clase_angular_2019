@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
@@ -10,7 +12,9 @@ export class HomeComponent implements OnInit {
   mostrar: boolean;
   numeros = []
 
-  constructor() { 
+  constructor(
+    private router:Router,
+  ) { 
     this.mostrar = false;
     this.repetir();
   }
@@ -29,6 +33,11 @@ export class HomeComponent implements OnInit {
     console.info('entro a la funcion');
     this.mostrar = !this.mostrar;
     console.info(this.mostrar)
+  }
+
+  redirigir(grupo: number){
+    console.info(grupo)
+    this.router.navigate( ['/grupo_trabajo', grupo ] )
   }
 
 }

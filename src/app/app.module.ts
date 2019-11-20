@@ -13,6 +13,8 @@ import { PruebaComponent } from './pages/prueba/prueba.component';
 import { MiembrosComponent } from './pages/miembros/miembros.component';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 import { ContraseñaPipe } from './pipes/contraseña.pipe';
+import { NotaComponent } from './pages/nota/nota.component';
+import { GrupoEspecificoComponent } from './pages/grupo-especifico/grupo-especifico.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContraseñaPipe } from './pipes/contraseña.pipe';
     PruebaComponent,
     MiembrosComponent,
     CapitalizadoPipe,
-    ContraseñaPipe
+    ContraseñaPipe,
+    NotaComponent,
+    GrupoEspecificoComponent
   ],
   imports: [
     BrowserModule,
