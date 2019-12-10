@@ -9,3 +9,29 @@
   </div>
 </div>
 
+<br> <br>
+
+<div class="container">
+    <p [ngStyle]="{'font-size': size + 'px'}" >texto de prueba style</p>
+    <p [style.fontSize]="'10px'" >texto de prueba style segundo</p>
+    <p [style.fontSize.px]="size" >texto de prueba style segundo editado</p>
+    
+    <button type="button" class="btn btn-success" (click)="size = size + 5" >tamaño + 5</button>
+    <button type="button" class="btn btn-success" (click)="size = size - 5" >tamaño - 5</button>
+
+    <br>
+    <br>
+    <div class="alert" [ngClass]="'alert-secondary'" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert" [ngClass]="alerta" role="alert">
+        A simple primary alert—check it out!
+      </div>
+
+      <div [ngSwitch]="alerta2">
+          <div *ngSwitchCase="'success'">success</div>
+          <div *ngSwitchCase="'info'">info</div>
+          <div *ngSwitchDefault>danger</div>
+      </div>
+
+</div>

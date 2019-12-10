@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PreparacionComponent implements OnInit {
 
+  size:number = 40;
+  alerta:string = 'alert-warning';
+  alerta2:string = 'success';
+
   variableParaHijo = {
     mensaje: 'hola hijo habla el padre',
     cualquiernumero: 7
