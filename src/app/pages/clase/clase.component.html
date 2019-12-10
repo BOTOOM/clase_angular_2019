@@ -1,0 +1,47 @@
+<div class="card border-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">padre</div>
+  <div class="card-body text-dark">
+    <!-- <h5 class="card-title">Dark card title</h5> -->
+    <button type="button" *ngIf="mostrar" class="btn btn-success">
+      Envio a hijo
+    </button>
+    <br />
+    <br />
+    <app-clase-hijo
+      (VISTA)="vista($event)"
+      (DatoParaPadre)="imprimirInfo($event)"
+      [DatoRecividoPadre]="variableParaHijo"
+    ></app-clase-hijo>
+  </div>
+</div>
+<br />
+<hr />
+
+<div class="container">
+  <p [ngStyle]="{ 'font-size': size + 'px' }">texto de prueba style</p>
+  <p [style.fontSize]="'15px'">texto de prueba style segundo</p>
+  <p [style.fontSize.px]="size">texto de prueba style segundo</p>
+  <button type="button" class="btn btn-success" (click)="size = size + 5">
+    tamaño + 5
+  </button>
+  <button type="button" class="btn btn-success" (click)="size = size - 5">
+    tamaño - 5
+  </button>
+
+  <br />
+  <br />
+
+  <div class="alert "  [ngClass]="'alert-danger'" role="alert">
+    A simple primary alert—check it out!
+  </div>
+  <div class="alert "  [ngClass]="alerta" role="alert">
+    alerta 2
+  </div>
+<hr>
+  <div [ngSwitch]="condicion">
+    <div *ngSwitchCase="'success'">success</div>
+      <div *ngSwitchCase="'danger'">danger</div>
+      <div *ngSwitchCase="'info'">info</div>
+      <div *ngSwitchDefault>primary</div>
+  </div>
+</div>

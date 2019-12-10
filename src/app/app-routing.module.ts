@@ -6,6 +6,8 @@ import { MiembrosComponent } from './pages/miembros/miembros.component';
 import { NotaComponent } from './pages/nota/nota.component';
 import { GrupoEspecificoComponent } from './pages/grupo-especifico/grupo-especifico.component';
 import { PreparacionComponent } from './pages/preparacion/preparacion.component';
+import { ClaseComponent } from './pages/clase/clase.component';
+
 
 
 
@@ -14,6 +16,7 @@ const routes: Routes = [
     { path: 'prueba', component: PruebaComponent },
     { path: 'miembros', component: MiembrosComponent },
     { path: 'preparacion', component: PreparacionComponent },
+    { path: 'clase', component: ClaseComponent },
   //   { path: 'artist/:id', component: ArtistaComponent },
     { path: 'nota/:id', component: NotaComponent },
     { path: 'grupo_trabajo/:numero', component: GrupoEspecificoComponent },

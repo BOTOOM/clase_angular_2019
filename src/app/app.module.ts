@@ -17,6 +17,8 @@ import { NotaComponent } from './pages/nota/nota.component';
 import { GrupoEspecificoComponent } from './pages/grupo-especifico/grupo-especifico.component';
 import { PreparacionComponent } from './pages/preparacion/preparacion.component';
 import { PreparacionHijoComponent } from './components/preparacion-hijo/preparacion-hijo.component';
+import { ClaseComponent } from './pages/clase/clase.component';
+import { ClaseHijoComponent } from './components/clase-hijo/clase-hijo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PreparacionHijoComponent } from './components/preparacion-hijo/preparac
     NotaComponent,
     GrupoEspecificoComponent,
     PreparacionComponent,
-    PreparacionHijoComponent
+    PreparacionHijoComponent,
+    ClaseComponent,
+    ClaseHijoComponent
   ],
   imports: [
     BrowserModule,
