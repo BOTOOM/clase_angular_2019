@@ -1,1 +1,11 @@
-<p>preparacion works!</p>
+<div class="card border-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">padre</div>
+  <div class="card-body text-dark">
+    <!-- <h5 class="card-title">Dark card title</h5> -->
+    <button type="button" class="btn btn-success">Envio a hijo</button>
+    <br> <br>
+    <app-preparacion-hijo [datoDesdePadre]="variableParaHijo" (datoParaPadre)="imprimirDato($event)" ></app-preparacion-hijo>
+
+  </div>
+</div>
+

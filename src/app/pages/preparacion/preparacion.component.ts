@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PreparacionComponent implements OnInit {
 
+  variableParaHijo = {
+    mensaje: 'hola hijo habla el padre',
+    cualquiernumero: 7
+  };
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  imprimirDato(dato: any ) {
+    console.log(dato)
   }
 
 }
