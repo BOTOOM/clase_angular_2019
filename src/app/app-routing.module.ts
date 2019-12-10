@@ -5,16 +5,19 @@ import { PruebaComponent } from './pages/prueba/prueba.component';
 import { MiembrosComponent } from './pages/miembros/miembros.component';
 import { NotaComponent } from './pages/nota/nota.component';
 import { GrupoEspecificoComponent } from './pages/grupo-especifico/grupo-especifico.component';
+import { PreparacionComponent } from './pages/preparacion/preparacion.component';
+
 
 
 const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'prueba', component: PruebaComponent },
     { path: 'miembros', component: MiembrosComponent },
+    { path: 'preparacion', component: PreparacionComponent },
   //   { path: 'artist/:id', component: ArtistaComponent },
     { path: 'nota/:id', component: NotaComponent },
     { path: 'grupo_trabajo/:numero', component: GrupoEspecificoComponent },
-    { path: '', pathMatch: 'full', redirectTo: 'home' },	
+    { path: '', pathMatch: 'full', redirectTo: 'home' },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
